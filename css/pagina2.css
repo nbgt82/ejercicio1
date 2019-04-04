@@ -11,14 +11,14 @@ section{
 	height: 100vh
 }
 .section1{
-	background:url(../imagenes/corsair.png);
+	background:url(../img/campus2.jpg);
 	overflow: hidden;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
 .section2{
-	background:url(../imagenes/teclado.jpg);
+	background:url(../img/turismo.jpg);
 	overflow: hidden;
 	background-size: cover;
 	background-position:center;
@@ -26,14 +26,22 @@ section{
 	height: auto;
 }
 .section3{
-	background:url(../imagenes/compu.jpg);
+	background:url(../img/campus3.jpg);
 	overflow: hidden;
 	background-size: cover;
 	background-position:center;
 	background-attachment: fixed;
 }
 .section4{
-	background:url(../imagenes/xbox.jpg);
+	background:url(../img/tall.jpg);
+	overflow: hidden;
+	background-size: cover;
+	background-position:center;
+	background-attachment: fixed;
+	
+}
+.section5{
+	background:url(../img/portada.jpg);
 	overflow: hidden;
 	background-size: cover;
 	background-position:center;
@@ -70,6 +78,14 @@ section.contenedor{
 	padding: 10px
 }
 .section4 h3{
+	background: rgba(0,0,0,0.5);
+	color: white;
+	font-size:2.5em;
+	opacity: 0.76;
+	text-align: center;
+	margin-top: 250px;
+	padding: 10px;
+}.section5 h4{
 	background: rgba(0,0,0,0.5);
 	color: white;
 	font-size:2.5em;
